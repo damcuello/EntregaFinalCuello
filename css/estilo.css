@@ -1,0 +1,121 @@
+/* Header */
+.logo {
+    width: 8rem;
+}
+
+.fuentes {
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-transform: uppercase;
+}
+
+header {
+    border-bottom: 1px solid white;
+    background-color: #274c77;
+}
+
+footer {
+    border-top: 1px solid white;
+    background-color: #274c77;
+}
+
+.text-body-secondary {
+    --bs-text-opacity: 1;
+    color: rgba (255, 255, 255, 0.75) !important;
+}
+/* Main */
+
+main {
+    margin: 20px;
+}
+
+.tituloPrincipal {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.texto {
+    text-justify: auto;
+    margin: 5px;
+}
+
+.carousel-control-next-icon {
+    filter: invert(75%);     
+}
+
+/* El Café */
+
+
+.tituloImagen{
+    text-align: center;
+
+}
+
+.explicacionTitulo {
+    text-align: justify;
+}
+
+
+
+/* Formulario Contacto */
+
+form {
+    margin-top: 20px;
+   
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.campos {
+    display: block;
+    width: 10%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.botonFormulario {
+    background-color: #333;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+.mapa {
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 10px;
+  width: 600px;
+}
+
+
+/* Reservas */
+
+.contenedor {
+    display: flex;
+}
+
+
+.calendario {
+    height: 1000px;
+    margin-top: 20px;
+    border: 2px solid orangered;
+}
+
+.ident {
+    margin-left: 100px;
+    align-self: center;
+    width: 80%;
+}
