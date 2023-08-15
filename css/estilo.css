@@ -17,12 +17,15 @@ header {
 footer {
     border-top: 1px solid white;
     background-color: #274c77;
+    
 }
 
-.text-body-secondary {
+.textFoot {
     --bs-text-opacity: 1;
-    color: rgba (255, 255, 255, 0.75) !important;
+    color: rgb(255, 255, 255) !important;   
 }
+
+
 /* Main */
 
 main {
@@ -36,23 +39,26 @@ main {
 
 .texto {
     text-justify: auto;
-    margin: 5px;
+    text-align: center;
+    margin: 3rem;
 }
 
 .carousel-control-next-icon {
-    filter: invert(75%);     
+    filter: invert(75%);
 }
 
 /* El Café */
 
 
-.tituloImagen{
+.tituloImagen {
     text-align: center;
 
 }
 
 .explicacionTitulo {
-    text-align: justify;
+    text-align: center;
+    margin: 3rem;
+    font-weight: bold;
 }
 
 /* Nuestros Gatos */
@@ -88,8 +94,15 @@ main {
 
 form {
     margin-top: 20px;
-   
+
 }
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 
 label {
     display: block;
@@ -100,7 +113,7 @@ label {
 
 .campos {
     display: block;
-    width: 10%;
+    width: 100%;
     padding: 10px;
     border: 2px solid #ccc;
     border-radius: 5px;
@@ -117,32 +130,57 @@ label {
     font-size: 20px;
     margin-top: 10px;
     cursor: pointer;
-    
+
 }
 
+
 .mapa {
-  text-align: center;
-  border: 1px solid black;
-  margin-top: 10px;
-  width: 600px;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 10px;
 }
 
 
 /* Reservas */
 
-.contenedor {
-    display: flex;
-}
-
-
 .calendario {
-    height: 1000px;
     margin-top: 20px;
-    border: 2px solid orangered;
+
 }
 
+
+.formRes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 .ident {
-    margin-left: 100px;
-    align-self: center;
-    width: 80%;
+    height: auto;
+    margin: 20px;
+    display: inline-block;
+    justify-content: center; 
+    align-items: center;
+    width: 30%;
+    max-width: 300px;
+}
+
+.camposRes {
+    display: block;
+    width: 100%;
+}
+
+.disclaimer {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+    .textoReserva{
+        text-transform: uppercase;   
+    }
+    
 }
