@@ -1,0 +1,10 @@
+footer {
+    border-top: 1px solid white;
+    background-color: $background-color_1;
+
+    
+    .textFoot {
+        --bs-text-opacity: 1;
+        color: $color_1;
+    }
+}

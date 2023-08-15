@@ -1,186 +1,162 @@
-/* Header */
-.logo {
-    width: 8rem;
-}
-
-.fuentes {
-    font-size: 1.5rem;
-    padding: 2rem;
-    text-transform: uppercase;
-}
-
+@charset "UTF-8";
 header {
-    border-bottom: 1px solid white;
-    background-color: #274c77;
+  border-bottom: 1px solid white;
+  background-color: #274c77;
+}
+header .logo {
+  width: 8rem;
+  cursor: pointer;
+}
+header .fuentes {
+  font-size: 1.5rem;
+  padding: 2rem;
+  text-transform: uppercase;
 }
 
 footer {
-    border-top: 1px solid white;
-    background-color: #274c77;
-    
+  border-top: 1px solid white;
+  background-color: #274c77;
+}
+footer .textFoot {
+  --bs-text-opacity: 1;
+  color: rgb(255, 255, 255);
 }
 
-.textFoot {
-    --bs-text-opacity: 1;
-    color: rgb(255, 255, 255) !important;   
+.contenedorCards .tituloAdop {
+  background-color: #274c77;
+  color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
 }
-
+.contenedorCards .flexCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contenedorCards .colorBtn {
+  background-color: #1282a2 !important;
+  color: #FFF !important;
+}
 
 /* Main */
-
 main {
-    margin: 20px;
+  margin: 20px;
 }
 
 .tituloPrincipal {
-    text-align: center;
-    font-size: 2.5rem;
+  text-align: center;
+  font-size: 2.5rem;
 }
 
 .texto {
-    text-justify: auto;
-    text-align: center;
-    margin: 3rem;
+  text-justify: auto;
+  text-align: center;
+  margin: 3rem;
 }
 
 .carousel-control-next-icon {
-    filter: invert(75%);
+  filter: invert(75%);
 }
 
 /* El Café */
-
-
 .tituloImagen {
-    text-align: center;
-
+  text-align: center;
 }
 
 .explicacionTitulo {
-    text-align: center;
-    margin: 3rem;
-    font-weight: bold;
+  text-align: center;
+  margin: 3rem;
+  font-weight: bold;
 }
 
 /* Nuestros Gatos */
-
-.tituloAdop {
-    background-color: #274c77;
-    color: #FFF;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 1rem;
-}
-
-.tituloAdop h2 {
-    font-size: 2.5rem;
-}
-
-.flexCard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.colorBtn {
-    background-color: #1282a2 !important;
-    color: #FFF !important;
-}
-
-
-
 /* Formulario Contacto */
-
 form {
-    margin-top: 20px;
-
+  margin-top: 20px;
 }
 
 .formulario {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
-
 label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #333;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
 }
 
 .campos {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    font-size: 20px;
-    margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .botonFormulario {
-    background-color: #333;
-    color: #FFF;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 20px;
-    margin-top: 10px;
-    cursor: pointer;
-
+  background-color: #333;
+  color: #FFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
 }
-
 
 .mapa {
-    text-align: center;
-    border: 1px solid black;
-    margin-top: 10px;
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 10px;
 }
-
 
 /* Reservas */
-
 .calendario {
-    margin-top: 20px;
-
+  margin-top: 20px;
 }
 
-
-.formRes{
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.formRes {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
+
 .ident {
-    height: auto;
-    margin: 20px;
-    display: inline-block;
-    justify-content: center; 
-    align-items: center;
-    width: 30%;
-    max-width: 300px;
+  height: auto;
+  margin: 20px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  max-width: 300px;
 }
 
 .camposRes {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .disclaimer {
-    margin-top: 20px;
-    padding: 10px;
-    font-size: 1.5rem;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 480px) {
-    .textoReserva{
-        text-transform: uppercase;   
-    }
-    
+  .textoReserva {
+    text-transform: uppercase;
+  }
 }
+
+/*# sourceMappingURL=estilo.css.map */

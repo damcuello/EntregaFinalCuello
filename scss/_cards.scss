@@ -1,0 +1,23 @@
+.contenedorCards {
+    .tituloAdop {
+        background-color: $background-color_1;
+        color: $color_2;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 1rem;
+    
+    }
+    
+    .flexCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .colorBtn {
+        background-color: $background-color_2 !important;
+        color: $color_2 !important;
+    }
+}
