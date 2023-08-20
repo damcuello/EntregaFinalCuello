@@ -1,0 +1,48 @@
+@mixin titulos {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.tituloPrincipal {
+    @include titulos;
+}
+
+@mixin subtTitulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tituloImagen {
+    @include subtTitulo;
+}
+
+@mixin parrafos {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.explicacionTitulo {
+    @include parrafos;
+}
+
+
+@mixin botonesForm {
+    background-color: $background-color_3;
+    color: $color_2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.botonFormulario {
+    @include botonesForm;
+}

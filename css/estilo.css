@@ -1,4 +1,8 @@
-@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   border-bottom: 1px solid white;
   background-color: #274c77;
@@ -22,6 +26,15 @@ footer .textFoot {
   color: rgb(255, 255, 255);
 }
 
+/* Main */
+main {
+  margin: 20px;
+}
+main .carousel-control-next-icon {
+  filter: invert(75%);
+}
+
+/* Nuestros Gatos */
 .contenedorCards .tituloAdop {
   background-color: #274c77;
   color: #FFF;
@@ -30,75 +43,40 @@ footer .textFoot {
   font-weight: bold;
   padding: 1rem;
 }
+.contenedorCards .titAdop {
+  font-size: 1.5rem;
+}
 .contenedorCards .flexCard {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .contenedorCards .colorBtn {
-  background-color: #1282a2 !important;
-  color: #FFF !important;
-}
-
-/* Main */
-main {
-  margin: 20px;
+  background-color: #1282a2;
+  color: #FFF;
 }
 
 .tituloPrincipal {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   font-size: 2.5rem;
+  text-transform: uppercase;
 }
 
-.texto {
-  text-justify: auto;
-  text-align: center;
-  margin: 3rem;
-}
-
-.carousel-control-next-icon {
-  filter: invert(75%);
-}
-
-/* El Café */
 .tituloImagen {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .explicacionTitulo {
-  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin: 3rem;
+  text-align: center;
   font-weight: bold;
-}
-
-/* Nuestros Gatos */
-/* Formulario Contacto */
-form {
-  margin-top: 20px;
-}
-
-.formulario {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-  color: #333;
-}
-
-.campos {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  font-size: 20px;
-  margin-bottom: 10px;
 }
 
 .botonFormulario {
@@ -110,6 +88,32 @@ label {
   font-size: 20px;
   margin-top: 10px;
   cursor: pointer;
+}
+
+/* Formulario Contacto */
+form {
+  margin-top: 20px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.formulario .campos {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.formulario label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
 }
 
 .mapa {
@@ -128,8 +132,7 @@ label {
   justify-content: center;
   width: 100%;
 }
-
-.ident {
+.formRes .ident {
   height: auto;
   margin: 20px;
   display: inline-block;
@@ -138,13 +141,11 @@ label {
   width: 30%;
   max-width: 300px;
 }
-
-.camposRes {
+.formRes .camposRes {
   display: block;
   width: 100%;
 }
-
-.disclaimer {
+.formRes .disclaimer {
   margin-top: 20px;
   padding: 10px;
   font-size: 1.5rem;
@@ -152,9 +153,18 @@ label {
   text-transform: uppercase;
   font-weight: bold;
 }
+.formRes label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+.formRes .disc {
+  text-align: center;
+}
 
 @media screen and (max-width: 480px) {
-  .textoReserva {
+  .explicacionTitulo {
     text-transform: uppercase;
   }
 }
