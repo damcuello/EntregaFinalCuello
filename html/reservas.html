@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Miau Café </title>
+    <meta name="description"
+        content="¡Asegura tu lugar en un mundo de peludo encanto a través de nuestra página de reservas en el cat café! Planifica tu próxima experiencia rodeado de gatos juguetones mientras disfrutas de deliciosas bebidas. Nuestra sencilla plataforma de reservas te permite elegir la fecha y hora perfectas para tu visita, garantizando que tengas un espacio reservado para relajarte y conectarte con nuestros amigos felinos. ¡Haz tu reserva hoy y prepárate para sumergirte en un paraíso de ronroneos y alegría en nuestro cat café!">
+    <title> Reservas - Miau Café </title>
 
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="shortcut icon" href="../imagen/logosinfondo.png" type="image/x-icon">
@@ -18,7 +20,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
                 <img class="logo" src="../imagen/logosinfondo.png"
-                    alt=" Logo del sitio, un gatito maullando alegremente ">
+                    alt=" Logo del sitio, un gatito maullando alegremente con el nombre del Café ">
             </a>
 
 
@@ -49,7 +51,8 @@
     </header>
     <main>
         <h1 class="tituloPrincipal"> Agenda tu reserva </h1>
-        <section class="container bg-light p-3 rounded general">
+        <section data-aos="fade-down-right" data-aos-duration="750" data-aos-easing="ease-in-out"
+            class="container bg-light p-3 rounded general">
             <div class="row">
                 <div class="col-12 col-md-5 calendario">
                     <img src="../imagen/calendario.avif" alt="Calendario para realizar la reserva deseada"
@@ -70,7 +73,7 @@
                 </div>
             </div>
         </section>
-        <div class="formRes">
+        <div data-aos="fade-up" data-aos-duration="750" data-aos-easing="ease-in-out" class="formRes">
             <form class="ident">
                 <label for="nombre"> Nombre </label>
                 <input class="camposRes" type="text" id="nombre">
