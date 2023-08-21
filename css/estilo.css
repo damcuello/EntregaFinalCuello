@@ -57,10 +57,15 @@ main .carousel-control-next-icon {
   justify-content: center;
   text-align: center;
   width: 60%;
+  margin: 10px;
 }
 .contenedorCards .colorBtn {
-  background-color: #1282a2;
+  background-color: #085f77;
   color: #FFF;
+}
+.contenedorCards .colorBtn:hover {
+  background-color: rgba(138, 211, 233, 0.9450980392);
+  transition: background-color 0.75s ease;
 }
 
 .tituloPrincipal {
@@ -120,6 +125,10 @@ form {
   margin-bottom: 5px;
   color: #333;
 }
+.formulario .botonFormulario:hover {
+  background-color: rgba(11, 69, 156, 0.9254901961);
+  transition: background-color 0.35s ease;
+}
 
 .mapa {
   text-align: center;
@@ -163,6 +172,10 @@ form {
   font-weight: bold;
   margin-bottom: 5px;
   color: #333;
+}
+.formRes .botonFormulario:hover {
+  background-color: rgba(11, 69, 156, 0.9254901961);
+  transition: background-color 0.35s ease;
 }
 
 @media screen and (max-width: 480px) {

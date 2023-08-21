@@ -44,4 +44,10 @@
         margin-bottom: 5px;
         color: $color_3;
     }
+
+    
+    .botonFormulario:hover {
+        background-color: #0b459cec;
+        transition: background-color 0.35s ease;
+    }
 }

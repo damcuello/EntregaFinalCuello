@@ -27,10 +27,16 @@
         justify-content: center;
         text-align: center;
         width: 60%;
+        margin: 10px;
     }
 
     .colorBtn {
         background-color: $background-color_2;
         color: $color_2;
+    }
+
+    .colorBtn:hover {
+        background-color: #8ad3e9f1;
+        transition: background-color 0.75s ease;
     }
 }
