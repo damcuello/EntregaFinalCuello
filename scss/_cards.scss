@@ -13,12 +13,20 @@
         font-size: 1.5rem;
     }
 
+    .cards {
+        width: 100%;
+        margin: 5px;
+
+        
+    }
+
     .flexCard {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
+        width: 60%;
     }
 
     .colorBtn {

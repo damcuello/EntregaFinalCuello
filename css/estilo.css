@@ -46,12 +46,17 @@ main .carousel-control-next-icon {
 .contenedorCards .titAdop {
   font-size: 1.5rem;
 }
+.contenedorCards .cards {
+  width: 100%;
+  margin: 5px;
+}
 .contenedorCards .flexCard {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 60%;
 }
 .contenedorCards .colorBtn {
   background-color: #1282a2;
@@ -123,8 +128,16 @@ form {
 }
 
 /* Reservas */
-.calendario {
+.general .calendario {
   margin-top: 20px;
+}
+.general .disclaimer {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .formRes {
@@ -145,22 +158,11 @@ form {
   display: block;
   width: 100%;
 }
-.formRes .disclaimer {
-  margin-top: 20px;
-  padding: 10px;
-  font-size: 1.5rem;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-}
 .formRes label {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
   color: #333;
-}
-.formRes .disc {
-  text-align: center;
 }
 
 @media screen and (max-width: 480px) {
